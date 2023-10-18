@@ -60,9 +60,9 @@ typedef struct info
 	int hist_cnt;
 } info_t;
 
-#define INFO_DEFAULT
-{NULL, NULL, NULL, 0, 0, 0, 0, NULL, NULL, NULL, NULL, NULL,
-	0, 0, NULL, 0, 0, 0}
+#define INFO_DEFAULT \
+{NULL, NULL, NULL, 0, 0, 0, 0, NULL, NULL, NULL, NULL, NULL, 0, 0, NULL, \
+	0, 0, 0}
 
 typedef struct builtin_cmd
 {
